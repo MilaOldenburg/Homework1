@@ -1,0 +1,27 @@
+
+import java.util.Scanner;
+
+public class HomeWork {
+
+ public static void main(String[] args) {
+
+   Scanner reader = new Scanner(System.in);
+
+  System.out.println("Привет! Как тебя зовут?");
+
+  String firstname = reader.nextLine();
+
+  System.out.println("Hello" + firstname);
+
+  System.out.println(firstname + "Какая у тебя фамилия?");
+
+  String secondName = reader.nextLine();
+
+  String fullname = firstname + " " + secondName;
+
+  System.out.println("Мила Ольденбург" + fullname);
+
+
+
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\lib\idea_rt.jar=50858:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\milao\IdeaProjects\Java\homework1\out\production\homework1 HomeWork
+Привет! Как тебя зовут?
